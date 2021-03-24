@@ -12,5 +12,5 @@ def http_parser_deps():
             urls = ["https://github.com/nodejs/http-parser/archive/4f15b7d510dc7c6361a26a7c6d2f7c3a17f8d878.tar.gz"],
             sha256 = "6a12896313ce1ca630cf516a0ee43a79b5f13f5a5d8143f56560ac0b21c98fac",
             strip_prefix = "http-parser-4f15b7d510dc7c6361a26a7c6d2f7c3a17f8d878",
-            build_file = "@com_github_3rdparty_bazel_rules_http_parser//:http-parser.BUILD",
+            build_file = "@com_github_3rdparty_bazel_rules_http_parser//http-parser:BUILD.bazel",
         )

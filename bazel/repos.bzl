@@ -15,8 +15,8 @@ def repos(external = True, repo_mapping = {}):
     if external and "com_github_3rdparty_bazel_rules_http_parser" not in native.existing_rules():
         git_repository(
             name = "com_github_3rdparty_bazel_rules_http_parser",
-            commit = "",
+            commit = "368deb318e5db247859d15b770b2aa5cd03d22a3",
             remote = "https://github.com/3rdparty/bazel-rules-http-parser",
-            shallow_since = " -0700",
+            shallow_since = "1616864863 -0700",
             repo_mapping = repo_mapping,
         )
